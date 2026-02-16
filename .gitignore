@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Environment Variables
+.env
+.env.*
+*.env
+
+# Django
+*.log
+db.sqlite3
+db.sqlite3-journal
+staticfiles/
+media/
+*.sqlite3
+
+# Migrations (optional - keep if team project)
+# */migrations/*
+# !*/migrations/__init__.py
+
+# Gunicorn
+gunicorn.pid
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Coverage / Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Node (if using React frontend)
+node_modules/
+dist/
+build/
+
+# Docker
+*.env.docker
+docker-compose.override.yml
+
+# Misc
+*.bak
+*.swp
